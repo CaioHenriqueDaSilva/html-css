@@ -1,0 +1,207 @@
+        reproduzindo audio
+no youtube ir na biblioteca de audio
+todas as musicas são gratuitas mas tem que 
+colocar os direitos
+
+formatos de audio
+mp3, wav, ogg
+
+<audio preload="metadata" controls autoplay loop>
+    source src="nome do arquivo" type="audio/mpeg"
+</audio>
+
+tipos de auido
+mp3 - mpeg
+wav - arquivo grande e pesado (evitar)
+ogg
+
+configurações de audio
+preload="metadata" informações do audio como duração, downlaod, play, volume.
+
+controls - controle do audio, play, volume
+autoplay- ao entrar no site vai iniciar a musica automaticamente
+
+loop- vai produzir o audio em looping
+
+
+
+    reproduzindo videos
+
+        formatos de videos 
+        mp4
+        webm
+        ogv
+    nao hospedar video acima de 1080p
+
+    importante colocar varios formatos de videos, pois pode ter navegadores que não é compativel com tal formato de video e tendo varios, ele carrega outros
+
+<video controls poster="" width="500px" >
+    <source src="" type"video/webm,mp4,ogv">
+    <source src="" type=video/mp4>
+</video>
+
+controls - controle do video
+poster   - thumbnail do video
+width    - largura do video
+
+        incorporar video do youtube
+    h1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
