@@ -50,9 +50,21 @@ width    - largura do video
 
 
 
+css inline
+só usar em casos pontuais para configurações pequenas
+
+css interno(css local)
+dentro de <head colocar a tag 
+<style>
+
+    </style>
+
+css externo
 
 
 
+        comandos css
+text-align: justify; < justificar o texto (melhor de ler)
 
 
 
