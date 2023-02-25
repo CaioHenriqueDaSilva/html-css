@@ -60,7 +60,13 @@ dentro de <head colocar a tag
     </style>
 
 css externo
+criar  o link:css abaixo do <title>
+pode ser colocado o link do css em varias paginas para
+a configurações seja aplicada em todas as paginas
 
+na primeira linha dentro da pagina do css externo
+colocar a regra 
+@charset "UTF-8";
 
 
         comandos css
@@ -68,6 +74,47 @@ text-align: justify; < justificar o texto (melhor de ler)
 
 
 
+
+contraste
+fundo preto e letra branca - causa cansaço visual
+- usar quando nao tem muito texto para ler
+
+fundo branco letra preta - causa menos cansaço visual
+- usar quando tem bastante conteudo para ler
+
+decimal - 0 1 2 3 4 5 6 7 8 9 (representado por 10 numeros )
+hexadecimal- 0 1 2 3 4 5 6 7 8 9 a b c d e f 
+(repesentado por 16 numeros)
+
+todas as cores são um conjunto de vermelho
+verde e azul
+a sigla (rgb)
+        ordem crescente
+para configurar uma cor por rgb, primeiro vem o red depois o green e depois o blue
+r- red 
+g- green
+b- blue
+
+0 repesenta a cor mais escura
+f representa o maximo de uma cor
+
+é gradativo ex:
+00 < 0 de cores (preto)
+ff < representa o maximo de uma cor
+
+exemplo de cores em hexadecimal (numeros e letras)
+azul escuro
+    (00 - 00 - ff)
+00 de red
+00 de green
+ff de azul, maximo de azul
+    (azul escuro)
+
+vermelho escuro
+ff 00 00
+ff maximo de vermelho
+00 de green
+00 de azul
 
 
 
