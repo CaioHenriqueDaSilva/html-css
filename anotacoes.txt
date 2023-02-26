@@ -116,10 +116,91 @@ ff maximo de vermelho
 00 de green
 00 de azul
 
+14:24
+
+
+
+cor primaria
+amarelo, vermelho azul
+
+cor secundaria
+verde laranja violeta
+
+cores terciarias
+   é a junção da cor primeira com a secundaria
+amarelo esverdeado
+vermelho alaranjado
+
+obs: a paleta de cores sempre parte de uma cor principal
+exemplo: amarelo. vou pegar cores que complementam o amarelo, que tem ligação com o amarelo
+
+outro exemplo, qual tom de amarelo, usar quando eu quero trabalhar com branco
+
+geralmente uma paleta de cores tem de 3 a 5 cores no maximo
+o recomendado é uma paleta de 4 cores
+desconsiderando o preto e branco q sempre vai ter no seu site
+
+cores complementares()
+
+cores analogas
+
+cores analogas e uma complementares
+
+cores analogas relacionadas
+
+cores intercaladas
+
+cores triádicas
+
+cores em quadrado
+para quando quiser usar cores fortes e bem balanceadas
+
+cores tetradicas
+
+
+monocromia
+usar apenas uma cor e faz um degrade com aquela cor
+modificando a saturação e iluminosidade, tem o degrade
+
+https://color.adobe.com/
+criar paleta de cores
+ele te da uma sugestão de paleta com 5 cores
+pode extrair tema
+(colocar uma imagem e o site separa as cores da imagem )
+na parte extrair gradiente
+ele tambem vai montar um degrade com as cores da imagem
+
+na parte (explorar)
+vc pode escolher varias sugestoes de paleta de cores
+
+na parte de (dentencias)
+vai ter varias fotos e as paletas de cores
+para te inspirar ou para vc achar aquilo
+que remete o que vc esta querendo fazer
+
+outro site muito bom
+https://paletton.com/
+
+parecido com o adobe porém
+quando vc escolhe uma paleta e clica em "exemples..."
+ele vai te dar um exemplo de site com aqeula paleta
+
+outro site
+https://coolors.co/
+
+ele vai dividir sua tela em 5 espaços
+cada vez que vc aparta a tecla espaços
+ele vai te sugerir uma paleta nova
+e clicando no (+) entre as cores vc faz um degrade
 
 
 
 
+COMANDOS css
+degrade
+background-image: linear-gradient(to top, white, blue)
+                radial-graidient(circle, white, blue)- vai criaar um degrade em circulo
+                
 
 
 
