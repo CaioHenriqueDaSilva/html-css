@@ -15,8 +15,26 @@ footer < roda pé
 
 
 
+imagem pelo css
 
+adicionar imagem por arquivo
+background-image: url('');
 
+adicionar imagem com a url do site
+background-image: url('url da imagem')
+(não é recomendado)
+
+  background-repeat: repeat; < vai repetir a imagem
+background-repeat: no-repeat; < não vai repetir a imagem
+
+background-size: 100px 100px; < tamanho da imagem em largura e altura
+
+background-position: left center ; 
+primeiro as colunas depois as linhas
+colunas (colunas são em pé, vertical)
+left center right
+linhas (são deitadas, horizontal)
+top center bottom
 
 
 
