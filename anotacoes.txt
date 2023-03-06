@@ -1,2 +1,5 @@
-iframe
+iframe serve para carregar sites inteiros ou paginas (arquivos.html)
+
+iframe src="site/arquivo-html"
+
 
