@@ -1,5 +1,41 @@
 iframe serve para carregar sites inteiros ou paginas (arquivos.html)
 
+dentro do iframe pode colocar
+mapas
+videos
+documentos
+
+ tamanho padrao 300x150 
+    dento do iframe pode mudar
+    height="" width=""
+    ou colocar direto no css com o parametro do iframe
+
 iframe src="site/arquivo-html"
 
+outro jeito
+criar um link separado do iframe
+ <a href="arquivo.html" target="frame">
+iframe src="" name="frame"
+
+colocar um nome no iframe, e adicionar esse nome no target do link, quando clicar no link vai abrir a pagina dentro do iframe
+
+
+pro  iframe nao ficar vazio antes de clicar no link
+trocar o src do iframe por srcdoc="<h1> escolha uma opção</h1> <img src='imagem.png'">
+vai criar um paragrafo dentro do iframe 
+para adicionar a imagem, dentro do src tem q ser aspas simples
+mas é recomendado criar um arquivo separado e criar um codigo, e depois carregar o arquivo.html dentro do iframe
+
+proteção contra ataques dentr do iframe
+<iframe src="" sandbox="sandbox">
+
+outra proteção
+referrerpolicy="no-referrer">
+
+vai ligar toda proteção no maximo
+mas para permitir outras funções é só colocar dentro do sandbox
+allow-scripts < permitir scripts
+allow-forms   < permitir formularios
+
+entre outros
 
