@@ -1,41 +1,121 @@
-iframe serve para carregar sites inteiros ou paginas (arquivos.html)
+                formularios 
+[sempre colocar input e label dentro de form]
+serve para fazer cadastros
 
-dentro do iframe pode colocar
-mapas
-videos
-documentos
+<fieldset> serve para agrupar o formularios
+    <legend>legenda do formulario</legend>
 
- tamanho padrao 300x150 
-    dento do iframe pode mudar
-    height="" width=""
-    ou colocar direto no css com o parametro do iframe
+<form action="" autocomplete=""> 
 
-iframe src="site/arquivo-html"
+    <label form="inome">nome:...</label>
+    <input type="text" nome="nome" id="inome">
 
-outro jeito
-criar um link separado do iframe
- <a href="arquivo.html" target="frame">
-iframe src="" name="frame"
+    </form>
 
-colocar um nome no iframe, e adicionar esse nome no target do link, quando clicar no link vai abrir a pagina dentro do iframe
+</fieldset>
+
+label < serve para dar ligação ao input
+input < serve para colocar dados
+no label for="" colocar o id do input.
 
 
-pro  iframe nao ficar vazio antes de clicar no link
-trocar o src do iframe por srcdoc="<h1> escolha uma opção</h1> <img src='imagem.png'">
-vai criar um paragrafo dentro do iframe 
-para adicionar a imagem, dentro do src tem q ser aspas simples
-mas é recomendado criar um arquivo separado e criar um codigo, e depois carregar o arquivo.html dentro do iframe
+            algumas opções dentro de form
+dentro da tag <form> colocar 
+action="cadastro.php" < é uma ação, quando clicar em submit vai ser mandado pra essa ação [importante usar]
 
-proteção contra ataques dentr do iframe
-<iframe src="" sandbox="sandbox">
+autocomplete="off" < vai desligar a sujestões de nomes dentro da caixa
 
-outra proteção
-referrerpolicy="no-referrer">
 
-vai ligar toda proteção no maximo
-mas para permitir outras funções é só colocar dentro do sandbox
-allow-scripts < permitir scripts
-allow-forms   < permitir formularios
+method="get" < colocar quando nao pede senha(pode ser compartilhado a url)
+get só pode ser usado ate 3mil bytes (3 mil letras)
 
-entre outros
+    [recomendado para proteger dados é aprender https]
+method="post" < colocar quando for dados sensiveis(senha etc..), pode usar para envios de arquivos(mas nao tem segurança total)
+post pode usar quando for maior de 3mil bytes
+
+        alguns comandos dentro de input
+        input type=".." name=".." id=".." ...>
+        required < quando é obrigatorio digitar algo
+            para input de texto
+        minlength < minimo de caracteres para ser digitado
+        maxlength < maximo de caracteres para ser digitado
+        
+            para input de numeros
+        max="" < maximo de numeros para ser digitado
+        min="" < minimo de numeros para ser digitado
+        step="0.5" < vai contar de 0.5, 1, 1.5, 2, 2.5
+        step="1"   < vai contar de 1 em 1
+
+        size < tamanho da caixa
+        placeholder < dica do que digitar
+        autocomplete=".." < vai aparecer sugestões na tela
+      checked < serve para deixar uma opção marcada como padrão
+
+
+        tipos de caixas de formularios
+    input type="text" < campo de textos
+    input type="number"  < campo de numeros
+    input type="password" < campo para digitar password
+    input type="month" < mes e ano
+    input type="date" < mes dia e ano
+    input type="time" < hora
+    input type="range" < vai mostrar uma barra e se move
+    input type="cor" < vai mostrar uma janera de cores
+
+    input type="file" < para carregar arquivos
+    para usar o file tem que usar o post no lugar do get
+
+    input type="radio" < serve para selecionar uma opção
+    se tiver varias opções e vc quer selecionar só uma, tem q colocar todas com o mesmo name="..", e nao o mesmo id.
+
+    input type="checkbox" < serve para ser marcadas varias opções
+
+    
+
+     input type="submit" < vai enviar os dados
+    input type="reset" < vai limpar os campos
+
+
+select e datalist text-area (textarea)
+
+select < caixas com opções dentro
+
+
+
+<select>
+</optgroup> label="nome1">
+    <option value="..."> nome dentro da lista </option>
+</optgroup>
+
+<optgroup label="nome2">
+    option value="..."> nome dentro da lista </option>
+</select>
+
+
+option   < vai aparecer dentro da lista do select
+optgroup < vai dividir por grupos.
+selected < vai deixar uma opção marcada como padrao
+
+
+datalist < caixa com opções, porém voce pode digitar algo dentro se a opção que vc quer nao esteja na lista
+    datalist pode ser colocado com input
+
+<label for="1"> nome </label>
+<input type="text" name="" id="1" list="2">
+   
+    <datalist id="2">
+        <option> ... </option>
+        <option> ... </option>
+    </datalist>
+
+dentro do input vai carregar as opções da datalist
+
+
+textarea < vai criar um campo para digitar uma mensagem
+
+<label for="msg"> </label>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+cols < maximo de digito é 30 por linha
+rows < maximo de linhas 
 
