@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* em pé */
+
+body {
+display: block;
+background: url(../imagem/cev-portrait.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: left top;
+
+}
