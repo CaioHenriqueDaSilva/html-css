@@ -22,10 +22,12 @@ span#burguer {
     text-align: center;
     padding: 10px;
 }
+
 span#burguer:hover {
     color: black;
     background-color: white;
     cursor: pointer;
+    transition: 1s;
 }
 menu {
     display: none;
@@ -47,6 +49,7 @@ a:hover {
 }
 main {
     width: 90%;
+    max-width: 768px;
     background-color: white;
     margin: auto;
     margin-top: 10px;

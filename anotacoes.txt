@@ -1,0 +1,45 @@
+menu em css 
+
+<menu >
+ <ul>
+    <li><a href="link">opção 1</a></li> 
+    <li><a href="link">opção 1</a></li> 
+</ul>
+    
+menu responsivo
+1 pegar icon de menu no site do google icons
+2 colocar a tag fora do menu
+3 colocar um id na tag do icon
+4 colocar id na tag do <menu>
+5 criar um css para medias queries
+@media screen and (min-width: 768px)
+    span#burguer{  
+        display: none;}
+[se a tela for maior q 768 vai mostrar as opções do menu e esconder o icon]
+
+6 dentro da tag do icon colocar onclick="clickmenu()"
+
+7 dentro do javascript colocar
+    function clickmenu() { [função que vai ter quando clicar no menu]
+
+        if (idmenu.style.display == 'block') { 
+            idmenu.style.display = 'none'
+        [se o menu estiver aberto, quando clicar vai esconder]
+        
+        else {
+            itens.style.display = 'block'
+            [se nao vai continuar aberto]
+
+8 dentro da tag body dentro do css colocar 
+<body onresize="mudoutamanho()>
+
+9 dentro do javascript colocar
+        function mudoutamanho() { 
+            if (window.innerWidth >= 768){ <
+                itens.style.display = 'block'
+            [se a tela for maior ou igual a 768 vai mostrar o menu aberto]
+            }
+            else {
+                itens.style.display = 'none'
+                [se for menor de 768 vai colocar o icon do menu]
+            }}
